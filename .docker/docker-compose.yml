@@ -1,0 +1,13 @@
+version: '3.2'
+  
+services:
+  postgress:
+    container_name: projecao-academia-db
+    image: postgres
+    volumes:
+      - ./data.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      POSTGRES_USER: "academia"
+      POSTGRES_PASSWORD: "academia"
+    ports:
+      - "15432:5432"
