@@ -7,10 +7,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-/**
- * @author renanravelli
- */
-
 @Getter
 @Builder
 @NoArgsConstructor

@@ -8,9 +8,6 @@ import java.util.Collection;
 import java.util.Objects;
 import java.util.function.Function;
 
-/**
- * @author renanravelli
- */
 public class BooleanExpressionBuilder {
 
     private BooleanExpression predicate;
